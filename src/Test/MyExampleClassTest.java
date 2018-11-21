@@ -18,7 +18,7 @@ public class MyExampleClassTest {
 		MyExampleClass tester = new MyExampleClass();
 	//	assertEquals(2,tester.getNum(2)); 
 		assertSame("suca",2.0,tester.getNum(2));
-		
+		 
 		}
 	  @Test(expected=java.lang.Exception.class)
 	  public void nuovoTest() throws Exception {
